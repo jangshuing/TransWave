@@ -1,0 +1,9 @@
+pandas==1.4.1
+torch==1.10.2+cu113
+tqdm
+matplotlib
+torchvision==0.11.3+cu113
+numpy==1.23.3
+ptflops==0.7.3
+Pillow
+Pillow @ file:///tmp/build/80754af9/pillow_1594307295532/work
