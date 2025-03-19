@@ -9,7 +9,7 @@ import pandas as pd
 from ptflops import get_model_complexity_info
 from utils import read_split_data, train_one_epoch, evaluate
 from my_dataset import MyDataSet
-from TransWave.TransWave import transwave as create_model
+from model.TransWave import transwave as create_model
 
 # Initialize to 0 or None for comparison later
 best_val_acc_weighted = 0
