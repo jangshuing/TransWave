@@ -3,8 +3,8 @@ import math
 import logging
 from functools import partial
 from collections import OrderedDict
-from attention import CBAM
-import wavelet
+from model.attention import CBAM
+from model import wavelet
 import sys
 import torch
 import torch.nn as nn
